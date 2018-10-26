@@ -1,4 +1,4 @@
-class MaquinaExpendedoraSimple {
+public class MaquinaExpendedoraSimple {
     
     // El precio del billete
     private int precioBillete;
