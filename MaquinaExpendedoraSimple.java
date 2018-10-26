@@ -30,6 +30,13 @@ public class MaquinaExpendedoraSimple {
     public int getPrecioBillete() {
         return precioBillete;
     }
+    
+    /**
+     * Devuelve el precio de todo el dinero acumulado
+     */
+    public int getTotalDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
 
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
