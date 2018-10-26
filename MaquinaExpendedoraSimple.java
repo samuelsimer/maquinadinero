@@ -40,7 +40,23 @@ public class MaquinaExpendedoraSimple {
      * Devuelve el precio de todo el dinero acumulado
      */
     public int getTotalDineroAcumulado() {
+        
         return totalDineroAcumulado;
+    }
+    
+    /**
+     * Esto es para los descuentos
+     */
+    public int setDescuentoPrecio( int descuento) {
+        precioBillete = precioBillete - descuento;
+        return precioBillete;
+    }
+    
+    /**
+     * vaciar caja
+     */
+    public void vaciarDepositoDinero() {
+        totalDineroAcumulado = 0;
     }
 
     /**
